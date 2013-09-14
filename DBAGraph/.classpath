@@ -11,7 +11,6 @@
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Log4j"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/MyBatis and Spring"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Struts 2.3.8"/>
-	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Struts 2.3.8 Sitemesh"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/Struts 2.3.8 Spring Libraries"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/jsch-0.1.49.jar"/>
 	<classpathentry kind="lib" path="WebRoot/WEB-INF/lib/mysql-connector-java-5.1.12-bin.jar"/>
