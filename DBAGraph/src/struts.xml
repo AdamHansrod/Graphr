@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+<package name="default" namespace="/" extends="struts-default">
+		<action name="home" class="com.port.dbagraph.action.Update">
+			<result name="success">
+				/WEB-INF/pages/graphs.jsp
+			</result>
+		</action>
+		<action name="ImageView" class="com.port.dbagraph.action.ImageView">
+			<result name="success" type="stream">
+				<param name="contentType">image/gif</param> 
+				<param name="inputName">inputStream</param> 
+				<param name="bufferSize">1024</param> 
+				<param name="allowCaching">false</param> 
+			</result>
+		</action>
+	</package>
+</struts>    

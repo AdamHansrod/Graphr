@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-module
+  type="WEB"
+  name="DBAGraph"
+  id="myeclipse.1357745204821"
+  context-root="/DBAGraph"
+  j2ee-spec="6.0"
+  archive="DBAGraph.war">
+  <attributes>
+    <attribute name="webrootdir" value="WebRoot" />
+  </attributes>
+</project-module>
+
